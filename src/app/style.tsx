@@ -8,12 +8,14 @@ export const MainPage = styled.div`
   gap: 20px;
   align-items: center;
   justify-content: center;
+  background-color: white;
   
   @media (min-width: 376px) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     padding-top: 50px;
     padding-left: 300px;
+    background-color: white;
     padding-right: 300px;
   }
 `
