@@ -57,7 +57,7 @@ export default function Sidebar({showMenu, setShowMenu, cartList, setCartList} :
             </SidebarHeader>
 
             <BuyCart>
-              { !cartList.length && <EmptyCart>Voce não possui nenhum item no carrinho</EmptyCart> }
+              { !cartList?.length && <EmptyCart>Voce não possui nenhum item no carrinho</EmptyCart> }
               {cartList?.map((element : products) => (
                 <ItemCart key={element.id}>
                   <RemoveCardX onClick={() => removeItemCart(element.id)}>

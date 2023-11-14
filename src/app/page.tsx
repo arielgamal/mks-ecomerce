@@ -53,7 +53,7 @@ export default function Home() {
     <>
       <Header cartList={cartList} setCartList={setCartList} />
       <MainPage>
-        {isLoading && array.map(() => <SkeletonCard key={array.length} />)}
+        {isLoading && array.map((_element, index) => <SkeletonCard key={index} />)}
         {
           products?.products?.map((produto: products) => (
             <CardProduct key={produto.id}>

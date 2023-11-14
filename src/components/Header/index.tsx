@@ -23,7 +23,7 @@ export default function Header({cartList, setCartList} : Props) {
       <div>
         <CartButton onClick={() => setShowMenu(!showMenu)}>
           <CartIcon as={Image} src={"/cartIcon.svg"} alt="icon" width={12} height={11} />
-          <CartNumber>{cartList.length}</CartNumber>
+          <CartNumber>{cartList?.length}</CartNumber>
         </CartButton>
       </div>
 
