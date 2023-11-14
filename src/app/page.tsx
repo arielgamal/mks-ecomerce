@@ -12,7 +12,7 @@ import { useState } from 'react';
 
 export default function Home() {
   const { products, isLoading } = useRequest()
-  let localCartList = JSON.parse(localStorage.getItem("products") as string)
+  let localCartList = typeof window !== "undefined" ? JSON.parse(localStorage.getItem("products") as string) : false
   const [cartList, setCartList] = useState(localCartList);
   const array = new Array(8).fill(null)
   const notify = () => toast.error('Voce já possui esse item no seu carrinho.', {
@@ -23,8 +23,6 @@ export default function Home() {
     theme: "colored",
     });;
 
-  console.log(products?.products)
-  
   function buyItem(item: any) {
     const product = {
       id: item.id,

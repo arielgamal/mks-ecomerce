@@ -1,9 +1,7 @@
+'use client'
 import { products } from "@/app/services/types/types";
 import { ButtonDecrease, ButtonIncrease, ButtonRemoveTextX, BuyButton, BuyCart, EmptyCart, ImageContainer, InsideItemCart, ItemCart, PriceCountWrapper, ProductName, ProductPrice, QuantityContainer, QuantityText, QuantityTitle, RemoveCardX, SidebarCart, SidebarHeader, TotalContainer } from "./style";
 import Image from "next/image";
-import { useEffect, useState } from "react";
-import { json } from "stream/consumers";
-
 
 interface Props {
   showMenu: React.SetStateAction<Boolean>
