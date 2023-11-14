@@ -39,7 +39,7 @@ export default function Sidebar({showMenu, setShowMenu, cartList, setCartList} :
 
   function totalPrice() {
     let total = 0;
-    cartList.forEach((element: products) => {
+    cartList?.forEach((element: products) => {
       total += parseFloat(element.price) * element.qty
     })
     return total
