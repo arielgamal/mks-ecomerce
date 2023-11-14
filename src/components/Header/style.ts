@@ -12,7 +12,7 @@ export const HeaderComponent = styled.section`
   justify-content: space-between;
   align-items: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     height: 101px;
   }
 `
@@ -23,7 +23,7 @@ export const MKSLogo = styled.p`
   font-size: 32px;
   line-height: 19px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     font-size: 40px;
   }
 `
@@ -35,7 +35,7 @@ export const Paragraph = styled.p`
   line-height: 19px;
   margin-top: 3px;
   
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     font-size: 20px;
   }
 `
@@ -53,7 +53,7 @@ export const CartButton = styled.button`
   border: none;
   cursor: pointer;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     width: 90px;
     height: 45px;
     flex-shrink: 0;
@@ -64,7 +64,7 @@ export const CartIcon = styled.img`
   width: 12px;
   height: 11px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     width: 19px;
     height: 18px;
   }
@@ -76,7 +76,7 @@ export const CartNumber = styled.p`
   font-weight: 700;
   color: black;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     font-size: 18px;
   }
 `

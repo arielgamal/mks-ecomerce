@@ -11,6 +11,7 @@ interface Props {
 }
 
 export default function Header({cartList, setCartList} : Props) {
+  console.log("cartList", cartList?.length);
   const [showMenu, setShowMenu] = useState<Boolean>(false);
 
   return (
@@ -23,7 +24,7 @@ export default function Header({cartList, setCartList} : Props) {
       <div>
         <CartButton onClick={() => setShowMenu(!showMenu)}>
           <CartIcon as={Image} src={"/cartIcon.svg"} alt="icon" width={12} height={11} />
-          <CartNumber>{cartList?.length}</CartNumber>
+          <CartNumber>{cartList?.length > 0 ? cartList?.length : 0}</CartNumber>
         </CartButton>
       </div>
 

@@ -13,7 +13,7 @@ export const SidebarCart = styled.div`
   height: 100vh;
   top: 0;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     width: 486px;
     overflow-y: auto;
   }
@@ -57,7 +57,7 @@ export const BuyCart = styled.div`
   width: 100%;
   justify-content: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -80,7 +80,7 @@ export const ItemCart = styled.div`
   height: 250px;
   border-radius: 8px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -96,7 +96,7 @@ export const InsideItemCart = styled.div`
   flex-direction: column;
   align-items: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -108,7 +108,7 @@ export const ImageContainer = styled.div`
   width: 120px;
   margin: auto;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     width: 80px;
     margin-left: 20px;
   }
@@ -119,9 +119,9 @@ export const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 450px;
   color: #2C2C2C;
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 }
 `
 
@@ -137,7 +137,7 @@ export const ProductPrice = styled.p`
   font-weight: 700px;
   color: white;
   
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     background-color: white;
     color: black;
     font-weight: 700;
@@ -150,7 +150,7 @@ export const QuantityContainer = styled.div`
   align-items: center;
   margin-right: 20px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 
   }
 `
@@ -162,7 +162,7 @@ export const RemoveButtonContainer = styled.div`
     background-color: red;
   }
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 }
 `
 
@@ -180,7 +180,7 @@ export const TotalContainer = styled.div`
     font-size: 27px;
   }
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     
   }
 `
@@ -198,7 +198,7 @@ export const BuyButton = styled.div`
     font-size: 27px;
   }
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 
   }
 `
@@ -208,7 +208,7 @@ export const PriceCountWrapper = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 
   }
 `
@@ -222,7 +222,7 @@ export const RemoveCardX = styled.button`
   background-color: white;
   border: none;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     width: auto;
     position: absolute;
     padding-right: 0px;
@@ -236,7 +236,7 @@ export const ButtonRemoveTextX = styled.p`
   font-size: 20px;
   font-weight: bold;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     color: white;
     font-size: 16px;
     padding: 5px 7px;
@@ -256,7 +256,7 @@ export const ButtonIncrease = styled.button`
   border-radius: 5px 0px 0px 5px;
   font-size: 16px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 
   }
 `
@@ -272,7 +272,7 @@ export const QuantityText = styled.p`
   /* border: solid lightgray; */
   color: gray;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 
   }
 `
@@ -288,7 +288,7 @@ export const ButtonDecrease = styled.button`
   border-radius: 0px 5px 5px 0px;
   font-size: 16px;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
 
   }
 `
@@ -296,7 +296,7 @@ export const ButtonDecrease = styled.button`
 export const QuantityTitle = styled.p`
   display: hidden;
 
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     font-size: 12px;
   } 
 `

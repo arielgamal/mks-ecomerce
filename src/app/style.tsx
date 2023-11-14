@@ -10,7 +10,7 @@ export const MainPage = styled.div`
   justify-content: center;
   background-color: white;
   
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     padding-top: 50px;
@@ -29,7 +29,7 @@ export const CardProduct = styled.div`
     border-radius: 8px;
     box-shadow: 0px 2px 8px 0px #00000022;
     
-    @media (min-width: 376px) {
+    @media (min-width: 450px) {
   }
 `
 
@@ -39,7 +39,7 @@ export const ProductInformationContainer = styled.section`
   flex-direction: column;
   gap: 20px;
   justify-content: space-between;
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
   }
 `
 
@@ -48,7 +48,7 @@ export const ImageContainer = styled.div`
   height: 150px;
   margin: auto;
 
-    @media (min-width: 376px) {
+    @media (min-width: 450px) {
   }
 `
 
@@ -62,9 +62,9 @@ export const ProductName = styled.p`
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    font-weight: 400px;
+    font-weight: 450px;
     color: #2C2C2C;
-    @media (min-width: 376px) {
+    @media (min-width: 450px) {
   }
 `
 
@@ -79,7 +79,7 @@ export const ProductPrice = styled.p`
     background-color: #373737;
     font-weight: 700px;
     color: white;
-    @media (min-width: 376px) {
+    @media (min-width: 450px) {
   }
 `
 
@@ -87,7 +87,7 @@ export const ProductDescription = styled.p`
     font-size: 10px;
     font-weight: 300px;
     color: #2C2C2C;
-    @media (min-width: 376px) {
+    @media (min-width: 450px) {
   }
 `
 
@@ -109,7 +109,7 @@ export const BuyButton = styled.button`
       color: white;
     }
     
-    @media (min-width: 376px) {
+    @media (min-width: 450px) {
   }
 `
 
@@ -117,6 +117,6 @@ export const BagIcon = styled.img`
   width: 20px;
   height: 20px;
   font-weight: 700;
-  @media (min-width: 376px) {
+  @media (min-width: 450px) {
   }
 `
